@@ -1,0 +1,85 @@
+.cartao-juju {
+  display: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+  border-radius: 10px;
+}
+.cartao-juju .cartao-topo {
+  padding: 30px 40px 0;
+}
+.cartao-juju .nome {
+  margin-bottom: 5px;
+}
+.cartao-juju .ocupacao {
+  font-size: 12px;
+  background-color: #fff;
+  opacity: 0.7;
+  border-radius: 10px;
+  padding: 2px 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+.cartao-juju .detalhes {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cartao-juju .cartao-imagem {
+  width: 350px;
+  height: 350px;
+}
+.cartao-juju img {
+  max-height: 100%;
+}
+.cartao-juju .cartao-informacoes {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 80px 30px 50px;
+  margin-top: -70px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.cartao-juju .cartao-informacoes h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #6b727a;
+}
+.cartao-juju .cartao-informacoes .status,
+.cartao-juju .cartao-informacoes .habilidades {
+  padding: 0 10px;
+  width: 180px;
+}
+.cartao-juju .cartao-informacoes .habilidades ul li,
+.cartao-juju .cartao-informacoes .status ul li {
+  border-bottom: 1px solid #c3c4c5;
+  padding: 0 0 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.cartao-juju.aberto {
+  display: block;
+}
+
+.tipo-yuji {
+    background-color: #A2212A;
+}
+
+.tipo-sukuna {
+    background-color: #160410;
+}
+
+.tipo-satoru {
+    background-color: #010011;
+}
+
+.tipo-nanami {
+    background-color: #1B2E4A;
+}
+
+.tipo-hanami {
+    background-color: #090502;
+}
+
+.tipo-yuta {
+    background-color: #151111;
+}
